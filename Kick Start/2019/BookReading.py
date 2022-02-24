@@ -1,7 +1,7 @@
 # Problem title: Book Reading
 # Kick Start: Round G 2019
 # Language: Python 3
-# Big-O Notation: O()
+# Big-O Notation: O(n*m)
 
 t = int(input()) #numero de casos
 for i in range(1, t+1):
