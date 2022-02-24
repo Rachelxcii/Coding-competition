@@ -1,4 +1,7 @@
-# H-index - Training February [Python3]
+# Title: H-index
+# Kick start: Training February
+# Language: Python 3
+# Big-O Notation: O(n)
 
 test = int(input())
 test_case = 1
