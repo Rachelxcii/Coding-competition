@@ -1,5 +1,5 @@
 # Problem title: H-index
-# Kick start: Training (February, 2022)
+# Kick start - Coding Practice 2022
 # Language: Python 3
 # Big-O Notation: O(n)
 
