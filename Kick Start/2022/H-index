@@ -1,4 +1,4 @@
-# H-index [Python3]
+# H-index - Training February [Python3]
 
 test = int(input())
 test_case = 1
