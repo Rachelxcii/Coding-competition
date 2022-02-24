@@ -11,14 +11,8 @@ while test > 0:
     papers = int(input())
     citations = list(map(int, input().split()))
     
-    maximum, h_index = 0, []
-    
-    for number in citations:
-        if number > maximum:
-            maximum = number
-            
-    count_numbers = [0]*(maximum+1)
-    count, position = 0, 0
+    h_index, position = [], 0
+    count_numbers = [0]*(max(citations)+1)
     
     for num in citations:
         
@@ -32,7 +26,7 @@ while test > 0:
                    
         h_index.append(str(position))
    
-    print('Case #{}: {}'.format(test_case, ' '.join(h_index))) # output[:len(output)-1]
+    print('Case #{}: {}'.format(test_case, ' '.join(h_index)))
     
     test_case += 1
     test -= 1
